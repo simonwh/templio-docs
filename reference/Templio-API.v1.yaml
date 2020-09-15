@@ -4,6 +4,13 @@ info:
   version: '1.0'
 servers:
   - url: 'https://api.templioapp.com'
-paths: {}
+paths:
+  /render:
+    post:
+      summary: ''
+      operationId: post-render
+      responses:
+        '200':
+          description: OK
 components:
   schemas: {}
