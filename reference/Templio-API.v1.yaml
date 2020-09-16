@@ -8,7 +8,7 @@ servers:
 paths:
   /render:
     post:
-      summary: ''
+      summary: Render Template
       operationId: post-render
       responses:
         '200':
