@@ -65,7 +65,7 @@ paths:
           description: The content type to be returned. `application/json` will return the rendered template within a `result` property. PDF is always returned base64 encoded.
         - schema:
             type: string
-            example: application/json
+            default: application/json
           in: header
           name: Content-Type
           description: ''
@@ -81,17 +81,21 @@ paths:
                   description: 'The data, as json, to make available for the render.'
                 language:
                   type: string
-                  default: en
                   description: Language template should be rendered in (if you use translations)
+                  default: en
                 type:
                   type: string
                   description: 'Content-type for rendering, only relevant if Accept header is application/json.'
+                  default: text/html
+                  enum:
+                    - text/html
+                    - application/pdf
       description: 'Renders your template in the requested format, with the data provided.'
 components:
   schemas: {}
   securitySchemes:
     Apikey:
-      name: Apikey
+      name: Authorization
       type: apiKey
       in: header
       description: ''
