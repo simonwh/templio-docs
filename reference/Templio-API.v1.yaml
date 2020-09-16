@@ -50,7 +50,7 @@ paths:
         - schema:
             type: string
           in: query
-          name: template-slug
+          name: template
           description: 'The `slug` of the template, found in "Template settings" in Templio.'
           required: true
         - schema:
