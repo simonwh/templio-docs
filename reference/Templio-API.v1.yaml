@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: Templio API
   version: '1.0'
+  description: Use the /render endpoint to render your templates with Templio!
 servers:
   - url: 'https://api.templioapp.com'
 paths:
@@ -12,7 +13,66 @@ paths:
       responses:
         '200':
           description: OK
-    get:
-      operationId: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    description: The rendered template result.
+                required:
+                  - result
+              examples:
+                example-application-json-render-result:
+                  value:
+                    result: <html>...</html>
+            text/html:
+              schema:
+                type: string
+              examples:
+                example-text-html-render-result:
+                  value: <html>...</html>
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: template-slug
+          description: 'The `slug` of the template, found in "Template settings" in Templio.'
+          required: true
+        - schema:
+            type: string
+            default: application/json
+            enum:
+              - application/json
+              - text/html
+              - application/pdf
+          in: header
+          name: Accept
+          description: The content type to be returned. `application/json` will return the rendered template within a `result` property. PDF is always returned base64 encoded.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  description: 'The data, as json, to make available for the render.'
+                language:
+                  type: string
+                  default: en
+                  description: Language template should be rendered in (if you use translations)
+                type:
+                  type: string
+                  description: 'Content-type for rendering, only relevant if Accept header is application/json.'
 components:
   schemas: {}
+  securitySchemes:
+    Apikey:
+      name: Apikey
+      type: apiKey
+      in: header
+      description: ''
+security:
+  - Apikey: []
