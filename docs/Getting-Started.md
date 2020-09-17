@@ -10,7 +10,8 @@ You should also check out the very simple [API Documentation](https://templio.st
 2. Layouts
 3. Languages
 4. Pre-processors
-5. Rendering
+5. The editor
+6. Rendering
 
 ## Quick walkthrough
 
