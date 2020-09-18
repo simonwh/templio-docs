@@ -6,12 +6,12 @@ We've split up these guides into the main concepts of Templio, and will explain 
 
 You should also check out the very simple [API Documentation](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post), for details on how exactly to use the render endpoint.
 
-1. Templates
-2. Layouts
-3. Languages
-4. Pre-processors
-5. The editor
-6. Rendering
+1. [Templates](./Templates.md)
+2. [Layouts](./Layouts.md)
+3. [Pre-processors](./Pre-processors.md)
+4. [Translations](./Translations.md)
+5. [The editor](./Editor.md)
+6. [Rendering](./Rendering.md)
 
 ## Quick walkthrough
 
