@@ -1,10 +1,14 @@
-# The editor
+# The editor ✏️
 
 The template editor is a core component of Templio, and we're dedicated to building the best and easiest editor - so you don't have to!
 
 We have plans to support different type of editors, such as simple Rich Text/WYSIWYG and block-style editors, but for now we're focusing on building a great code editor.
 
+[Templates](./Templates.md), [Layouts](./Layouts.md) and [Pre-processors](./Layouts) all share the same editor.
+
 The editor has 3 sections or panes:
+
+![Editor panes](../assets/images/editor_pane_overview.png)
 
 ## Left pane - Inputs
 
@@ -21,11 +25,17 @@ If you have assigned any [pre-processors](https://templio.stoplight.io/docs/temp
 ### Translations
 If you are using translations, you can view all the keys and values in the translations pane.
 
+![Translations pane](../assets/images/translations_editor_pane.png)
+
 ## Middle pane - Editor
+
+This is where most of your time will be spent, building up your templates. The editor is using the popular [Ace](https://ace.c9.io/) code editor, customized for the best experience when building templates.
+
+Together with the [Liquid](https://shopify.github.io/liquid/) templating language, you have all the power you need to build even the most advanced templates.
+
 
 ## Right pane - Preview
 
+Being able to preview your templates as you write them is crucial, which is why we've built a live updating preview.
 
-Preview Data
-Pre-processors
-Languages
+In the preview, you will see the final result, as we return it from the [Render API](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post). You can switch between `HTML` and `PDF` preview.
