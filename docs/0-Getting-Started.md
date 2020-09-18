@@ -13,11 +13,13 @@ You should also check out the very simple [API Documentation](https://templio.st
 5. [The editor](./5-Editor.md)
 6. [Rendering](./6-Rendering.md)
 
-## Quick walkthrough
+## Quick demo
 
 In this section, we will walk through a simple workflow from editing to rendering, in two quick steps. We will use the onboarding template that was created when you first logged in.
 
 ### 1. Edit template
+
+TODO - Await demo template
 
 ### 2. Render template
 
