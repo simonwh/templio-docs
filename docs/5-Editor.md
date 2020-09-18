@@ -4,7 +4,7 @@ The template editor is a core component of Templio, and we're dedicated to build
 
 We have plans to support different type of editors, such as simple Rich Text/WYSIWYG and block-style editors, but for now we're focusing on building a great code editor.
 
-[Templates](./Templates.md), [Layouts](./Layouts.md) and [Pre-processors](./Layouts) all share the same editor.
+[Templates](./1-Templates.md), [Layouts](./2-Layouts.md) and [Pre-processors](./3-Pre-processors.md) all share the same editor.
 
 The editor has 3 sections or panes:
 

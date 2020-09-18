@@ -23,7 +23,7 @@ module.exports = (input) => {
 };
 ```
 
-You can any write any Javascript code and [use NPM packages](#Using-npm-packages) - as long as you `return input` at the end.
+You can any write any Javascript code and [use NPM packages](#using-npm-packages) - as long as you `return input` at the end.
 
 The `input` variable contains the input data (`input.data`) sent to the template (or the result of a previous pre-processor if chained). You can also overwrite certain render configurations, such as language, by setting `input.language`.
 
