@@ -4,7 +4,7 @@ With layouts, you can re-use template code across multiple templates, like shari
 
 The layouts use the same editor as the templates, including live preview.
 
-All `input data` are available to layouts, just like templates.
+All `input data` and translations are available to layouts, so you can work with them in the exact same way as templates.
 
 
 ## Render content within your layout
