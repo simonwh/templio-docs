@@ -1,4 +1,4 @@
-# The editor ✏️
+# The editor
 
 The template editor is a core component of Templio, and we're dedicated to building the best and easiest editor - so you don't have to!
 

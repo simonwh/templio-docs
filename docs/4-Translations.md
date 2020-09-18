@@ -1,6 +1,6 @@
 # Translations
 
-Templio supports localized (or multi-lingual) templates. We have experienced the pain of maintaining multiple templates, for a handful of different languages and it quickly becomes a big headache to manage.
+Templio supports localized (or multi-lingual) templates. We have experienced the pain of maintaining multiple templates for a handful of different languages, and it quickly becomes a big headache to manage.
 
 With translations, you can have **one** template for all the languages, and instead define the translatable strings outside the template.
 

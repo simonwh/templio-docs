@@ -1,4 +1,4 @@
-# Templates 📝
+# Templates
 
 Templates is at the core of Templio, and that's why we will start here.
 
