@@ -49,7 +49,7 @@ paths:
       parameters:
         - schema:
             type: string
-            example: simple-de
+            example: simple-demo
           in: query
           name: template
           description: 'The `slug` of the template, found in "Template settings" in Templio.'
@@ -91,6 +91,11 @@ paths:
                   enum:
                     - text/html
                     - application/pdf
+            examples:
+              example-simple:
+                value:
+                  data:
+                    name: Elon Musk
       description: 'Renders your template in the requested format, with the data provided.'
 components:
   schemas: {}
