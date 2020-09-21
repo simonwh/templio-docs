@@ -15,11 +15,13 @@ You should also check out the very simple [API Documentation](https://templio.st
 
 ## Quick demo
 
-In this section, we will walk through a simple workflow from editing to rendering, in two quick steps. We will use the onboarding template that was created when you first logged in.
+In this section, we will walk through a simple workflow from editing to rendering, in two quick steps. 
 
 ### 1. Edit template
 
-TODO - Await demo template
+We've created a new template and opened the editor. We will keep it really simple, with a quick "Hello". In the left pane, we defined the preview data, used for editing. We expect to receive a `name` in the request, so I add an example here in the preview:
+
+![Simple Edit Demo](../assets/images/simple_edit_demo.png)
 
 ### 2. Render template
 
@@ -39,7 +41,7 @@ The response will, by default, be a JSON object with the rendered template in th
 
 ```json
 {
-  "result": "<html>...</html>"
+  "result": "<h1>Hello Elon Musk!</h1>"
 }
 ```
 
@@ -48,13 +50,15 @@ You can try to query the Render API directly in the widget below, just press 'Se
 ```json http
 {
   "method": "post",
-  "url": "https://api.templioapp.com/render?template=onboarding",
+  "url": "https://api.templioapp.com/render?template=simple-demo",
   "headers": {
-    "Authorization": "Apikey xxx",
+    "Authorization": "Apikey 1762a910a46a7a4de325ddd847e250832ac645fcf9089e405b95298f64658386",
     "Content-Type": "application/json"
   },
   "body": { "data": { "name": "Elon Musk" } }
 }
 ```
+
+You can try and change the `name` in the `data` property, to see the template rendering with different date.
 
 There's a ton more you can do with Templio, but we hope you got the gist of it in this brief demo.
