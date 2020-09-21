@@ -1,4 +1,4 @@
-# 6-Rendering
+# Rendering
 
 Finally time to render your templates!
 
