@@ -49,6 +49,7 @@ paths:
       parameters:
         - schema:
             type: string
+            example: simple-de
           in: query
           name: template
           description: 'The `slug` of the template, found in "Template settings" in Templio.'
