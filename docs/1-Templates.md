@@ -8,7 +8,7 @@ You can use [layouts](./2-Layouts.md) to define and re-use html, such as a heade
 
 The data provided to the template is known as `input data`. This data can be used directly as is, or be transformered via powerful javascript [pre-processors](./3-Pre-processors.md). You can even fetch additional data from external APIs that you need for your rendering!
 
-When you've build your template, you send a simple request to our [Render API](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) and we will return you the final, rendered template in no time ⚡.
+When you've build your template, you send a simple request to our [Render API](https://docs.templioapp.com/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) and we will return you the final, rendered template in no time ⚡.
 
 
 ## Creating a new template

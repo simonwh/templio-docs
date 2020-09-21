@@ -29,7 +29,7 @@ When writing your template, you use the Liquid syntax for translations:
 <h1>{{ 'hello' | t}} Elon Musk!</h1>
 ```
 
-The render will show the localized string, based on the language set in `input.language`. This can be set from the [Render API](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) request, or from a [pre-processor](./3-Pre-processors.md).
+The render will show the localized string, based on the language set in `input.language`. This can be set from the [Render API](https://docs.templioapp.com/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) request, or from a [pre-processor](./3-Pre-processors.md).
 
 In the preview, it will fetch the translation for the language selected:
 

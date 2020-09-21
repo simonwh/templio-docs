@@ -2,7 +2,7 @@
 
 Finally time to render your templates!
 
-It's really quite straight forward. You call our [Render API](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) with your data, and we return you the rendered template.
+It's really quite straight forward. You call our [Render API](https://docs.templioapp.com/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post) with your data, and we return you the rendered template.
 
 ## Specifying content type
 

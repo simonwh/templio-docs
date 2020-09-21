@@ -96,6 +96,12 @@ paths:
                 value:
                   data:
                     name: Elon Musk
+              example-extended:
+                value:
+                  data:
+                    name: Nikola Tesla
+                  language: en
+                  type: application/pdf
       description: 'Renders your template in the requested format, with the data provided.'
 components:
   schemas: {}

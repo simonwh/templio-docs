@@ -4,7 +4,7 @@ You're ready to get started with Templio, great! 💪
 
 We've split up these guides into the main concepts of Templio, and will explain each of them in detail in their own section.
 
-You should also check out the very simple [API Documentation](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post), for details on how exactly to use the render endpoint.
+You should also check out the very simple [Render API Documentation](https://docs.templioapp.com/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post), for details on how exactly to use the render endpoint.
 
 1. [Templates](./1-Templates.md)
 2. [Layouts](./2-Layouts.md)

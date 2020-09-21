@@ -20,7 +20,7 @@ If your template needs `input data` to render, you can write in an example of th
 
 ![Preview Data](../assets/images/preview_data.png)
 
-If you have assigned any [pre-processors](https://templio.stoplight.io/docs/templio-docs/docs/Pre-processors.md) to your template, you will have the option to run the pre-processors on the input data you define, and the data will transform to the final state (after all pre-processors has run). You can easily switch back to the original preview data and trigger pre-proccesors to run again.
+If you have assigned any [pre-processors](../3-Pre-processors.md) to your template, you will have the option to run the pre-processors on the input data you define, and the data will transform to the final state (after all pre-processors has run). You can easily switch back to the original preview data and trigger pre-proccesors to run again.
 
 ### Translations
 If you are using translations, you can view all the keys and values in the translations pane.
@@ -38,4 +38,4 @@ Together with the [Liquid](https://shopify.github.io/liquid/) templating languag
 
 Being able to preview your templates as you write them is crucial, which is why we've built a live updating preview.
 
-In the preview, you will see the final result, as we return it from the [Render API](https://templio.stoplight.io/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post). You can switch between `HTML` and `PDF` preview.
+In the preview, you will see the final result, as we return it from the [Render API](https://docs.templioapp.com/docs/templio-docs/reference/Templio-API.v1.yaml/paths/~1render/post). You can switch between `HTML` and `PDF` preview.
