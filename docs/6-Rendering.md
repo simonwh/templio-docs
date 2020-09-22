@@ -41,16 +41,30 @@ POST: https://api.templioapp.com/render?template={YOUR_TEMPLATE_SLUG}
 Accept: text/html
 Authorization: Apikey {YOUR_API_KEY}
 
-<html>...</html>
+{
+  "data": { ... }
+}
 ```
 
+will return the raw html response:
+```html
+<html>
+  ...
+</html>
+```
+
+and
 ```http
 POST: https://api.templioapp.com/render?template={YOUR_TEMPLATE_SLUG}
-Accept: text/pdf
+Accept: application/pdf
 Authorization: Apikey {YOUR_API_KEY}
 
-BASE64_PDF_CONTENT
+{
+  "data": { ... }
+}
 ```
+
+will return a binary PDF response.
 
 
 ## Overwriting render configuration
